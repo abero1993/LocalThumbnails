@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="gridview_horianl_space">12dp</dimen>
+    <dimen name="gridview_vertical_space">12dp</dimen>
+
+    <dimen name="setting_item">48dp</dimen>
+
+    <dimen name="pading_low">8dp</dimen>
+    <dimen name="pading_normal">16dp</dimen>
+    
+    <dimen name="review_folder_height">48dp</dimen>
+
+    <dimen name="message_item_height">48dp</dimen>
+
+    <dimen name="file_list_item_height">66dp</dimen>
+
+    <dimen name="video_control_height">100dp</dimen>
+    <dimen name="video_top_control_height">60dp</dimen>
+    <dimen name="video_control_play_pause_size">40dp</dimen>
+
+</resources>

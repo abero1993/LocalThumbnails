@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LocalThumbnails.iml" filepath="$PROJECT_DIR$/LocalThumbnails.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/media/media.iml" filepath="$PROJECT_DIR$/media/media.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssb/ssb.iml" filepath="$PROJECT_DIR$/ssb/ssb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssb2/ssb2.iml" filepath="$PROJECT_DIR$/ssb2/ssb2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tlibrary/tlibrary.iml" filepath="$PROJECT_DIR$/tlibrary/tlibrary.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="video_speed_values">
+        <item>0.5倍</item>
+        <item>1倍</item>
+        <item>2倍</item>
+        <item>4倍</item>
+        <item>8倍</item>
+    </string-array>
+
+</resources>

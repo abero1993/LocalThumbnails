@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/video_control_height"
+    android:background="@color/video_control_bg"
+    android:layout_gravity="bottom"
+    android:id="@+id/control_root"
+    android:visibility="invisible"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/video_top_control_height">
+
+        <ImageView
+            android:id="@+id/control_play"
+            android:layout_width="@dimen/video_control_play_pause_size"
+            android:layout_height="@dimen/video_control_play_pause_size"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/play"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/control_front"
+            android:layout_width="@dimen/video_control_play_pause_size"
+            android:layout_height="@dimen/video_control_play_pause_size"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/pading_normal"
+            android:layout_toRightOf="@id/control_play"
+            android:background="@drawable/rew_front"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/control_later"
+            android:layout_width="@dimen/video_control_play_pause_size"
+            android:layout_height="@dimen/video_control_play_pause_size"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/pading_normal"
+            android:layout_toLeftOf="@id/control_play"
+            android:background="@drawable/rew_laster"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/control_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/pading_normal"
+            android:layout_toRightOf="@id/control_front"
+            style="@style/video_control_text_style"
+            android:text="@string/speed" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/control_current_time"
+            style="@style/video_control_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="00:00" />
+
+        <SeekBar
+            android:id="@+id/control_seekbar"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/control_length"
+            style="@style/video_control_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="00:00" />
+
+    </LinearLayout>
+
+</LinearLayout>

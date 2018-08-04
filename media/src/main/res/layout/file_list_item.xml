@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/file_list_item_height">
+
+    <ImageView
+        android:id="@+id/file_item_logo"
+        android:layout_width="@dimen/file_list_item_height"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/file_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/pading_normal"
+        android:layout_marginTop="@dimen/pading_low"
+        android:lines="1"
+        android:layout_toRightOf="@id/file_item_logo" />
+
+    <TextView
+        android:id="@+id/file_item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/file_item_name"
+        android:layout_marginLeft="@dimen/pading_normal"
+        android:layout_toRightOf="@id/file_item_logo" />
+
+</RelativeLayout>
